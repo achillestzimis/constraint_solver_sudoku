@@ -25,7 +25,7 @@ one sig N7, N8, N9 extends Region3 {}
 
 pred Init(n: Number){ no cell }
 
-//The predicate states that each row, column and 3x3 column of the grid is complete.
+//The predicate states that each row, column and 3x3 column of the solution is complete and unique number from 1-9.
 pred invar{ 
 	all x, y: Number { lone y.(x.cell) }    
 	all row: Number { valid[row, Number] }  
@@ -45,7 +45,7 @@ pred valid(rows: set Number, cols: set Number) {
 	Number in cols.(rows.cell)
 }
 
-//Fiendish Sudoku taken from Pg 52 The Times newspaper on saturday 08 November 2014. 
+//An un-solved fiendish Sudoku puzzle taken from Pg 52 The Times newspaper on saturday 08 November 2014. 
 pred addPuzzle() {
     
     N1->N6->N9+N1->N7->N8 +
