@@ -2,7 +2,7 @@
 Static-based constrant solver of a Sudoku Game coded in Alloy.
 
 
-<p>Your donations will help me write better code and help the causes I care about.
+<p>Your donations will enable me to write more code and develop the causes I care about.
 <a href=""></a><a href=""></a><a href=""></a>
 Thanks.</p>
 
