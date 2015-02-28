@@ -1,5 +1,6 @@
 //Static-based constrant solver of a Sudoku Game in Alloy.
 //Can be run in Alloy4.2 
+//http://alloy.mit.edu/alloy/download.html
 //2013. Author: Achilleas Tzimis. London, UK.
 
     This program is free software: you can redistribute it and/or modify
